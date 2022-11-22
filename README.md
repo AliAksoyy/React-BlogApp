@@ -101,7 +101,7 @@ SOLUTION
 <hr>
 <h3>How to Use the Project</h3>
 <span>First download a code editor </span>
-<br><span>Second open the files : </span><a href='https://github.com/yasinsutoglu/React-MyBlogApp'>My Docs</a>
+<br><span>Second open the files : </span><a href='https://github.com/AliAksoyy/React-BlogApp'>My Docs</a>
 <br><span>You should open vscode terminal and write "yarn or npm install" to make the project alive </span>
 <br><span>You can use this tutorial : </span><a href='https://www.youtube.com/watch?v=fJEbVCrEMSE'>VS Code tutorial</a>
 
