@@ -14,7 +14,7 @@
 
 <hr>
 
-[📍You can see the live site from here!](https://reactmyblogapp.vercel.app/)
+[📍You can see the live site from here!](https://react-blog-app-rho.vercel.app/)
 
 <!-- ------------------------------------------------------ -->
 ````
@@ -151,5 +151,5 @@ Feel free to check [issues page](https://github.com/kefranabg/readme-md-generato
 
 👤 **Yasin Sutoglu**
 
-- Twitter: [@YsnStgl](https://twitter.com/YsnStgl)
-- Github: [@yasinsutoglu](https://github.com/yasinsutoglu)
+- Twitter: [@alifeyza4017](https://twitter.com/alifeyza4017)
+- Github: [@AliAksoyy](https://github.com/AliAksoyy)
