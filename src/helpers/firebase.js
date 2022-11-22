@@ -18,6 +18,7 @@ import { clearUser, setUser } from "../features/AuthSlice";
 import { errorBlogs, loadBlogs, readBlogs } from "../features/BlogSlice";
 import { toastErrorNotify, toastSuccessNotify, toastWarnNotify } from "../helpers/toastNotify";
 
+
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apiKey,
   authDomain: process.env.REACT_APP_authDomain,
@@ -39,18 +40,23 @@ const db = getDatabase(app);
 export const userRegister = async(values,navigate) =>{
 
   const {firstName,lastName,email,password} = values;
+  
   try {
     await createUserWithEmailAndPassword(auth, email, password)
-
+    console.log(email, password)
+    console.log("update dışı")
     await updateProfile(auth.currentUser,{
       displayName : `${firstName} ${lastName}`,
+      
     })
-
+    console.log("update içi")
+    
      navigate("/");
      toastSuccessNotify("Register Performed");
   } catch (error) {
     toastErrorNotify(error.message);
   }
+
 }
 
 //TODO - Login Function

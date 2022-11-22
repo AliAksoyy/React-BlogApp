@@ -11,12 +11,16 @@ import PrivateRouter from "./PrivateRouter";
 import Navbar from '../components/Navbar';
 import { useEffect } from "react";
 import { useObserverHook } from "../helpers/firebase";
+import { useSelector } from 'react-redux';
 
 
 
 const AppRouter = () => {
 
+
 const { userObserver } = useObserverHook();
+
+
 
   useEffect(() => {
     userObserver();
