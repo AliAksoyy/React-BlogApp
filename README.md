@@ -149,7 +149,7 @@ Feel free to check [issues page](https://github.com/kefranabg/readme-md-generato
 <!-- ------------------------------------------------------------------------------------- -->
 ## Author
 
-👤 **Yasin Sutoglu**
+👤 **Ali Aksoy**
 
 - Twitter: [@alifeyza4017](https://twitter.com/alifeyza4017)
 - Github: [@AliAksoyy](https://github.com/AliAksoyy)
